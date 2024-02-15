@@ -18,8 +18,8 @@ export default function Home() {
           </p>
         </div>
         <p className={`${opensans.className} text text-left mt-6 mb-12`}>
-          Going to put a witty blurb about me here and let&#39;s make it a bit
-          longer for testing.
+          Full-stack software developer with a front end focus because of a
+          passion for user experience.
         </p>
         <div className="flex flex-col justify-center">
           <div className="flex flex-row gap-x-4 justify-between">
