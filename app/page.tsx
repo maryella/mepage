@@ -1,9 +1,7 @@
-import Image from "next/image";
 import { cookie, opensans, sono } from "./fonts";
 import { SocialCard } from "./components/SocialCard";
 
 export default function Home() {
-  console.log("log");
   return (
     <main className="flex flex-1 min-h-screen flex-col justify-center items-center">
       <div className="flex flex-col flex-1 max-w-[380px] m-4 my-8 sm:m-10 max-h-[600px] justify-between">
