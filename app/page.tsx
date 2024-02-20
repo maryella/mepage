@@ -15,9 +15,9 @@ export default function Home() {
             SOFTWARE ENGINEER
           </p>
         </div>
-        <p className={`${opensans.className} text text-left mt-6 mb-12`}>
-          Full-stack software developer with a front end focus because of a
-          passion for user experience.
+        <p className={`${opensans.className} text text-center mt-6 mb-12`}>
+          Full stack software engineer{" / "}
+          <span className="whitespace-nowrap">Front-end&nbsp;focus</span>
         </p>
         <div className="flex flex-col justify-center">
           <div className="flex flex-row gap-x-4 justify-between">
