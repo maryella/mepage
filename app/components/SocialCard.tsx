@@ -12,7 +12,7 @@ export function SocialCard({
 }) {
   return (
     <a href={link} target="_blank" className="group first:-ml-4 last:-mr-4">
-      <div className="flex flex-1 py-2 flex-col items-center rounded-md p-4 group-hover:bg-[rgb(var(--foreground-rgb))]/90 transition duration-200 group-hover:shadow-md group-hover:shadow-[rgb(var(--foreground-rgb))] transition duration-200">
+      <div className="flex flex-1 py-2 flex-col items-center rounded-md p-4 group-hover:bg-[rgb(var(--foreground-rgb))]/90 transition duration-200 group-hover:shadow-md transition duration-200">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="32"

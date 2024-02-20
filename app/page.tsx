@@ -3,7 +3,7 @@ import { SocialCard } from "./components/SocialCard";
 
 export default function Home() {
   return (
-    <main className="flex flex-1 min-h-screen flex-col justify-center items-center">
+    <main className="flex flex-1 min-h-dvh flex-col justify-center items-center">
       <div className="flex flex-col flex-1 max-w-[380px] m-4 my-8 sm:m-10 max-h-[600px] justify-between">
         <div className="flex flex-col">
           <p className={`${cookie.className} text-8xl text-center`}>
