@@ -4,7 +4,7 @@ import { Pill } from "./components/PillImage";
 
 export default function Home() {
   return (
-    <main className="flex flex-1 min-h-dvh flex-col">
+    <main className="flex flex-1 min-h-dvh max-h-dvh flex-col">
       <div className="flex flex-col flex-1 m-4 my-8 self-center justify-center md:w-3/4 md:max-w-[1080px]">
         <div className="">
           <div className="flex flex-row justify-between mb-10">
@@ -17,7 +17,7 @@ export default function Home() {
             <Pill className="fill-neutral-400" />
           </div>
         </div>
-        <div className="flex flex-col  xl:mt-0 mb-8 w-full self-center px-2 h-96 justify-center">
+        <div className="flex flex-col  xl:mt-0 mb-8 w-full self-center px-2 h-80 justify-center">
           <div className="shrink-0">
             <div className="flex flex-row justify-center">
               <p

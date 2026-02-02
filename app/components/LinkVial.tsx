@@ -1,6 +1,3 @@
-import { ReactElement } from "react";
-import { sono } from "../fonts";
-
 export function LinkVial({
   pathD,
   name,
